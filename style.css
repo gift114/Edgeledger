@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+#navbar{
+    background: #000;
+    padding: 10px;
+    top: 0;
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+}
+.light{
+    color: green;
+}
+.bg-light{
+    background: green;
+    color: #fff;
+}
+.bg-dark{
+    background: #000;
+    color: #fff;
+}
+h1{
+    color: #fff;
+    padding-bottom: 20px;
+}
+h2{
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 2rem;
+}
+#navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li{
+    text-decoration: none;
+}
+#navbar ul li a{
+    padding: 20px;
+}
+#navbar ul li a:hover{
+    background: #444;
+}
+#showcase{
+    background: url('./img/images\ \(2\).jpeg') no-repeat center center/cover;
+    height: 100vh
+}
+#showcase .content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#showcase h1{
+    font-size: 3rem;
+}
+p{
+    font-size: 1.2rem;
+}
+#showcase a{
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+}
+.item{
+    display: flex;
+}
+.items{
+    display: flex;
+    text-align: left;
+    padding: 20px;
+}
+.items img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: green;
+    padding: 7px;
+    align-self: center;
+    margin-right: 1rem;
+}
+#who{
+    display: flex; 
+    height: 500px; 
+}
+#who div{
+    flex: 1;
+}
+#who .team1{
+    background: url('./img/images\ \(3\).jpeg') no-repeat center/cover;
+}
+#who .team{
+    padding: 50px;
+}
+#who .team p{
+    padding: 20px 0;
+}
+#who .team li{
+    list-style: none;
+    line-height: 2.5rem;
+}
+#who .team h3{
+    padding-bottom: 10px;
+}
+.clients{
+    display: flex;
+    justify-content: space-between;
+}
+.clients img{
+    width: 150px;
+}
+#contact{
+    display: flex;
+}
+#contact .map{
+    background: url('./img/EUROPE.jpeg') no-repeat center center/cover;
+    flex: 2;
+}
+#contact .info{
+    flex: 1;
+    padding: 20px;
+}
+label{
+    display: block;
+    padding-top: 10px;
+}
+#contact .info input,
+#contact .info textarea{
+    width: 100%;
+}
+#contact .info button{
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+}
+footer{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}

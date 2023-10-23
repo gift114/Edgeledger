@@ -1,0 +1,68 @@
+
+h1{
+    color: #fff;
+    padding-bottom: 10px;
+}
+#navbar{
+    background: #000;
+    padding: 5px;
+    flex-direction: column;
+    align-items: center;
+}
+#navbar ul{
+    list-style: none;
+}
+#navbar ul li a{
+    padding: 9px;
+}
+#showcase{
+    background: url('./img/images\ \(2\).jpeg') no-repeat center center/cover;
+    height: 50vh
+}
+.item{
+    display: block;
+    flex-direction: column ;
+}
+.items{
+    text-align: center;
+    padding: 10px20px;
+    flex-direction: column;
+}
+.items img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: green;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+#who{
+    display: block; 
+    height: 650px; 
+}
+#who div{
+    flex: none;
+}
+.clients{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.clients img{
+    width: 150px;
+}
+#who .team h3{
+    padding-bottom: 20px;
+}
+#contact{
+    display: block;
+}
+#contact .map{
+    background: url('./img/EUROPE.jpeg') no-repeat center center/cover;
+    flex-direction: column;
+    height: 200px;
+}
+#contact .info{
+    flex-direction: column;
+    padding: 20px;
+}
